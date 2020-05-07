@@ -2,11 +2,12 @@
   "name": "vue-firework",
   "version": "0.1.0",
   "private": false,
+  "main": "./lib/vue-firework.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name vue-fi --dest lib ./src/main.js"
+    "lib": "vue-cli-service build --target lib --name vue-firework --dest lib ./src/main.js"
   },
   "dependencies": {
     "animejs": "^3.2.0",

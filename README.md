@@ -40,3 +40,5 @@ components: { VueFirework }
 ### todo
 - Custom color
 ### MIT
+
+[MIT](./LICENSE)
