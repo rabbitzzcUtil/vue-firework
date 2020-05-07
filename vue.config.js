@@ -1,6 +1,7 @@
 const path = require('path');
 // const webpack = require('webpack')
 module.exports = {
+  productionSourceMap: false,
   pages: {
     index: {
       entry: 'example/main.js',
@@ -19,5 +20,14 @@ module.exports = {
       libraryTarget: 'umd',
       umdNamedDefine: true,
     },
+  },
+  chainWebpack: (config) => {
+    config.optimization.delete('splitChunks');
+    config.plugins.delete('copy');
+    config.plugins.delete('html');
+    config.plugins.delete('preload');
+    config.plugins.delete('prefetch');
+    config.plugins.delete('hmr');
+    config.entryPoints.delete('app');
   },
 };
