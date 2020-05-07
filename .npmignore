@@ -2,6 +2,17 @@ examples/
 public/
 node_modules
 
+# 源文件
+src
+dist
+
+# 配置
 vue.config.js
 babel.config.js
+.browserslistrc
+.editorconfig
+yarn.lock
+.eslintrc.js
+
+
 *.map
