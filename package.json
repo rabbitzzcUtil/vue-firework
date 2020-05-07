@@ -1,13 +1,15 @@
 {
   "name": "vue-firework",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vue-fi --dest lib ./src/main.js"
   },
   "dependencies": {
+    "animejs": "^3.2.0",
     "core-js": "^3.6.4",
     "vue": "^2.6.11"
   },
@@ -21,5 +23,18 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.11"
-  }
+  },
+  "author": "zzclovelcs@gmail.com",
+  "description": "To use the firework component developed by vue, click on the component.",
+  "keywords": [ 
+    "vue",
+    "firework",
+    "vue-firework"
+  ],
+  
+  "repository": {
+    "type": "git",
+    "url": "项目的git地址"
+  },
+  "license": "MIT"
 }
