@@ -29,5 +29,7 @@ module.exports = {
     config.plugins.delete('prefetch');
     config.plugins.delete('hmr');
     config.entryPoints.delete('app');
+    config.resolve.alias
+      .set('vue$', 'vue/dist/vue.esm.js');
   },
 };
