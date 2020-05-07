@@ -13,6 +13,7 @@ babel.config.js
 .editorconfig
 yarn.lock
 .eslintrc.js
+.DS_Store
 
 
 *.map
