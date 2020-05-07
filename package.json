@@ -1,13 +1,13 @@
 {
   "name": "vue-firework",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": false,
-  "main": "./lib/vue-firework.umd.min.js",
+  "main": "lib/vue-firework.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name vue-firework --dest lib ./src/main.js"
+    "lib": "vue-cli-service build --target lib --name vue-firework --dest lib src/main.js"
   },
   "dependencies": {
     "animejs": "^3.2.0",
@@ -27,12 +27,11 @@
   },
   "author": "zzclovelcs@gmail.com",
   "description": "To use the firework component developed by vue, click on the component.",
-  "keywords": [ 
+  "keywords": [
     "vue",
     "firework",
     "vue-firework"
   ],
-  
   "repository": {
     "type": "git",
     "url": "https://github.com/ra-utility/vue-firework"
