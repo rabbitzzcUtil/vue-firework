@@ -7,6 +7,7 @@ Vue 版的点击页面出现火花效果，可以全局也用，也可以在单�
 
 ### demo
 
+[https://vue-firework.now.sh/](https://vue-firework.now.sh/)
 
 ### install
 
